@@ -22,7 +22,7 @@ let data = {
 };
 
 const playerLogin = (name) => {
-  let list = false;
+  let list = '';
 
   if (data.players.length < 2) {
     data.players.push(name);
